@@ -1,0 +1,14 @@
+name: foo
+version: 0.1.0.0
+
+library:
+  source-dirs: src
+  dependencies:
+    - base
+
+internal-libraries:
+  foo-internal:
+    source-dirs: internal
+    dependencies:
+      - base
+      - foo
