@@ -1,1 +1,2 @@
 resolver: nightly-2021-06-01
+compiler: ghc-9.0.1
